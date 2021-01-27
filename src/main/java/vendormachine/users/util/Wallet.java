@@ -1,5 +1,7 @@
 package vendormachine.users.util;
 
+
+
 public class Wallet {
 
     private String brand = "Generic";
@@ -47,7 +49,7 @@ public class Wallet {
         return this.storedCredit;
     }
 
-    public String getBrand(String band) {
+    public String getBrand() {
         return this.brand;
     }
 

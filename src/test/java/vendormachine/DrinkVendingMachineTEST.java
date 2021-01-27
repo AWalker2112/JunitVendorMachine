@@ -1,5 +1,10 @@
 package vendormachine;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.Test;
+
+import vendormachine.users.util.Wallet;
 import vendormachine.vendors.DrinkVendingMachine;
 
 public class DrinkVendingMachineTEST {
@@ -15,4 +20,21 @@ public class DrinkVendingMachineTEST {
 	 * 		TDD: analyse code and add missing methods.
 	 * */
 
+	private DrinkVendingMachine drink = new DrinkVendingMachine();
+	private DrinkVendingMachine drinkCreditNBrand = new DrinkVendingMachine();
+	
+	@Test
+	public void populateDrinkListTest() {
+		
+		
+
+		for (int i =0; i < 4;i++) {
+			
+			
+		}
+
+		//assertEquals(,);
+
+	}
+	
 }
